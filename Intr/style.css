@@ -1,0 +1,13 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+div{ 
+    margin: 1.5rem;
+    height:200px; width: 70%;
+    border: solid 1px rgb(206, 204, 204);
+}
