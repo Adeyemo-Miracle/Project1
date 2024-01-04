@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Project 1</title>
+    <!-- <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="div">
+      <nav class="slideout">
+        <button class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+        <ul class="slideout-list">
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Features</li>
+          <li>Pricing</li>
+          <li>Contact Us</li>
+        </ul>
+      </nav>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="navbardiv  container container-fluid">
+          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="nav-link">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success px-3" type="submit">Search</button>
+            </form> -->
+          </div>
+          <button class="border-0 bg-transparent btn-open-slideout btn-toggle-slideout">
+            <span class=""></span>
+            <span class=""></span>
+            <span></span>
+          </button>
+        </div>
+    </nav>
+      
+      <section class="gradient-section bg-dark py-10 text-white">
+          <h2 class="fw-black mb-3 gradient-text">
+            <span>Create Account</span>
+          </h2>
+          <h2 class="fw-black mb-3 gradient-text">
+            <span>Setup Form</span>
+          </h2>
+          <h2 class="fw-black mb-3 gradient-text">
+            <span>Publish</span>
+          </h2>
+      </section>
+      <section class="form-main container">
+        <div class="form row">
+          <div class="divsection col-4">
+            <h5 class="h5">Try one of our flexible plans</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem consequatur Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt.</p></br></br></br></br>
+            
+            <ul class="first list"><li>Users</li>
+            <li>Telephones</li>
+            <li>Emails</li>
+            <li>Contacts</li>
+            <li>Services</li></ul>
+          </div>
+            <div class="divsection col-4">
+              <h5 class="h5">Essential</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, beatae dicta.</p>
+              <div class="vmo"><span>.</span><span>19</span><span>/vmo</span></div>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <button class="button">Get started</button>
+              <ul class="list"><li>Users</li>
+              <li>Telephones</li>
+              <li>Emails</li>
+              <li>Contacts</li>
+              <li>Services</li></ul>
+            </div>
+          <div class="divsection col-4">
+            <h5 class="h5">Agency</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus modi.</p>
+            <div class="vmo"><span>.</span><span>45</span><span>/vmo</span></div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <button class="button">Get started</button>
+            <ul class="list"><li>Users</li>
+              <li>Telephones</li>
+            <li>Emails</li>
+          <li>Contacts</li>
+        <li>Services</li></ul>
+          </div>
+        </div>
+      </section>
+    <!-- <script src="/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
