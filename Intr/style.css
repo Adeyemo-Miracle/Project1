@@ -68,6 +68,6 @@ div{
         width: 100px; height: 40px;
     }
     .btn-active .btn-transition{
-        transform: translateX(100%);
+        transform: translateX(150%) scale(50%);
     }
 }
